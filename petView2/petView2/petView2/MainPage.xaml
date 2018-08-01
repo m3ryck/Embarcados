@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:petView2"
+             x:Class="petView2.MainPage">
+
+    <StackLayout BackgroundColor="#DCDCDC" Padding="30" Spacing="50">
+        <!-- Place new controls here -->
+
+        <Image Source="petview5.png"/>
+
+        <Button Grid.Row="1" Grid.Column="0" TextColor="White" BackgroundColor="#363636" FontSize="Medium"
+                    HeightRequest="50" VerticalOptions="Center" Text="MONITORAR" WidthRequest="100"
+                Clicked="Button_Clicked"  BorderRadius="20"  />
+
+        <Button Grid.Row="1" Grid.Column="0" TextColor="White" BackgroundColor="#363636" FontSize="Medium"
+                    HeightRequest="50" VerticalOptions="Center" Text="ALIMENTAR" WidthRequest="100"
+                BorderRadius="20"  Pressed="Agendar_Alimento"  />
+        
+        <Label Text="MONITORE SEU PET" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+    </StackLayout>
+
+</ContentPage>
