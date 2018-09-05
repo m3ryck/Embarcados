@@ -13,14 +13,6 @@
             <Forms:VideoView WidthRequest="360"
                              HeightRequest="202"/>
 
-            <Button Grid.Row="1" Grid.Column="0" TextColor="White" BackgroundColor="Gray"
-                    HeightRequest="50" VerticalOptions="Center" Text="PLAY" WidthRequest="100"
-                    Clicked="PlayButton_Clicked" x:Name="PlayButton" BorderRadius="20"/>
-
-            <Button Grid.Row="2" Grid.Column="0" TextColor="White" BackgroundColor="Gray"
-                    HeightRequest="50" VerticalOptions="Center" Text="STOP" WidthRequest="100"
-                    Clicked="StopButton_Clicked" x:Name="StopButton"  BorderRadius="20" />
-
             <Button Grid.Row="3" Grid.Column="0" TextColor="White" BackgroundColor="Gray"
                     HeightRequest="50" VerticalOptions="Center" Text="Alimentar" WidthRequest="100"
                     Clicked="Alimento_Clicked" x:Name="Alimento" BorderRadius="20" />

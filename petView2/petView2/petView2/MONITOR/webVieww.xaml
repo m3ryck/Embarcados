@@ -7,7 +7,7 @@
 
             <WebView WidthRequest="360"
                      HeightRequest="400" 
-                     Source="https://youtu.be/G1IbRujko-A"/>
+                     Source="http://192.168.0.19:81/index.htm"/>
 
             <Button TextColor="White" BackgroundColor="#363636" FontSize="Medium"
                     HeightRequest="50" VerticalOptions="Center" Text="VOLTAR" WidthRequest="100"

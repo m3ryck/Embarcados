@@ -3,13 +3,18 @@ C:\Users\Adriano\source\repos\petView2\petView2\petView2.Android\obj\Debug\andro
 C:\Users\Adriano\source\repos\petView2\petView2\petView2.Android\obj\Debug\android\assets\Java.Interop.dll
 C:\Users\Adriano\source\repos\petView2\petView2\petView2.Android\obj\Debug\android\assets\Mono.Android.dll
 C:\Users\Adriano\source\repos\petView2\petView2\petView2.Android\obj\Debug\android\assets\mscorlib.dll
+C:\Users\Adriano\source\repos\petView2\petView2\petView2.Android\obj\Debug\android\assets\Newtonsoft.Json.dll
 C:\Users\Adriano\source\repos\petView2\petView2\petView2.Android\obj\Debug\android\assets\petView2.dll
 C:\Users\Adriano\source\repos\petView2\petView2\petView2.Android\obj\Debug\android\assets\Plugin.MediaManager.Abstractions.dll
 C:\Users\Adriano\source\repos\petView2\petView2\petView2.Android\obj\Debug\android\assets\Plugin.MediaManager.dll
 C:\Users\Adriano\source\repos\petView2\petView2\petView2.Android\obj\Debug\android\assets\Plugin.MediaManager.Forms.Android.dll
 C:\Users\Adriano\source\repos\petView2\petView2\petView2.Android\obj\Debug\android\assets\Plugin.MediaManager.Forms.dll
+C:\Users\Adriano\source\repos\petView2\petView2\petView2.Android\obj\Debug\android\assets\RestSharp.dll
 C:\Users\Adriano\source\repos\petView2\petView2\petView2.Android\obj\Debug\android\assets\System.Core.dll
 C:\Users\Adriano\source\repos\petView2\petView2\petView2.Android\obj\Debug\android\assets\System.dll
+C:\Users\Adriano\source\repos\petView2\petView2\petView2.Android\obj\Debug\android\assets\System.Net.Http.dll
+C:\Users\Adriano\source\repos\petView2\petView2\petView2.Android\obj\Debug\android\assets\System.Net.Http.Extensions.dll
+C:\Users\Adriano\source\repos\petView2\petView2\petView2.Android\obj\Debug\android\assets\System.Net.Http.Primitives.dll
 C:\Users\Adriano\source\repos\petView2\petView2\petView2.Android\obj\Debug\android\assets\System.Xml.dll
 C:\Users\Adriano\source\repos\petView2\petView2\petView2.Android\obj\Debug\android\assets\System.Xml.Linq.dll
 C:\Users\Adriano\source\repos\petView2\petView2\petView2.Android\obj\Debug\android\assets\Xamarin.Android.Arch.Core.Common.dll
@@ -50,7 +55,6 @@ C:\Users\Adriano\source\repos\petView2\petView2\petView2.Android\obj\Debug\andro
 C:\Users\Adriano\source\repos\petView2\petView2\petView2.Android\obj\Debug\android\assets\System.Runtime.InteropServices.dll
 C:\Users\Adriano\source\repos\petView2\petView2\petView2.Android\obj\Debug\android\assets\System.Runtime.Extensions.dll
 C:\Users\Adriano\source\repos\petView2\petView2\petView2.Android\obj\Debug\android\assets\System.Reflection.Extensions.dll
-C:\Users\Adriano\source\repos\petView2\petView2\petView2.Android\obj\Debug\android\assets\System.Net.Http.dll
 C:\Users\Adriano\source\repos\petView2\petView2\petView2.Android\obj\Debug\android\assets\System.Runtime.Serialization.dll
 C:\Users\Adriano\source\repos\petView2\petView2\petView2.Android\obj\Debug\android\assets\System.ServiceModel.Internals.dll
 C:\Users\Adriano\source\repos\petView2\petView2\petView2.Android\obj\Debug\android\assets\netstandard.dll
@@ -70,3 +74,4 @@ C:\Users\Adriano\source\repos\petView2\petView2\petView2.Android\obj\Debug\andro
 C:\Users\Adriano\source\repos\petView2\petView2\petView2.Android\obj\Debug\android\assets\System.Resources.ResourceManager.dll
 C:\Users\Adriano\source\repos\petView2\petView2\petView2.Android\obj\Debug\android\assets\System.Threading.Tasks.dll
 C:\Users\Adriano\source\repos\petView2\petView2\petView2.Android\obj\Debug\android\assets\Mono.Security.dll
+C:\Users\Adriano\source\repos\petView2\petView2\petView2.Android\obj\Debug\android\assets\System.Net.Primitives.dll

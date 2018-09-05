@@ -15,24 +15,11 @@ namespace petView2.MONITOR
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class visualizar : ContentPage
     {
-        private string URL = "https://youtu.be/irQ1NhpPoJs﻿";
+        private string URL = "http://192.168.0.19:81/index.htm﻿";
 
         public visualizar()
         {
             InitializeComponent();
-        }
-
-        private void PlayButton_Clicked(object sender, EventArgs e)
-        {
-
-            CrossMediaManager.Current.Play(URL, Plugin.MediaManager.Abstractions.Enums.MediaFileType.Video);
-
-        }
-        private void StopButton_Clicked(object sender, EventArgs e)
-        {
-
-            CrossMediaManager.Current.Stop();
-
         }
 
         private void Voltar_Clicked(object sender, EventArgs e)

@@ -30,3 +30,7 @@ Plugin.MediaManager.Forms.Android
 Plugin.MediaManager.Forms
 netstandard
 System.Resources.ResourceManager
+Newtonsoft.Json
+RestSharp
+System.Net.Http.Extensions
+System.Net.Http.Primitives
