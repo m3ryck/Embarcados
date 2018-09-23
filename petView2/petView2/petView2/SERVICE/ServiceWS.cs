@@ -14,7 +14,7 @@ namespace petView2.SERVICE
         
         public async static void  AtivarAlimentador(JObject alimentarViaWeb)
         {
-            string server = "http://192.168.11.7/ajax";
+            string server = "http://192.168.11.14/ajax";
             var URL = new Uri(server);
            
             var param = new StringContent(alimentarViaWeb.ToString(), Encoding.UTF8, "application/json");
@@ -26,14 +26,7 @@ namespace petView2.SERVICE
 
             System.Console.WriteLine("DEBUG POST");
 
-            /*
-            if (resposta.StatusCode == HttpStatusCode.OK)
-            {
-                return true;
-            }
-            return false;*/
-
-           
+                       
         }
 
     }

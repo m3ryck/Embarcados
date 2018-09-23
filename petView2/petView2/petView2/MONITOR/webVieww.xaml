@@ -3,20 +3,15 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="petView2.MONITOR.webVieww">
     <ContentPage.Content>
-        <StackLayout BackgroundColor="#DCDCDC" Spacing="50">
+        <StackLayout BackgroundColor="#DCDCDC" Spacing="40" >
 
-            <WebView WidthRequest="360"
+            <WebView   WidthRequest="400"
                      HeightRequest="400" 
-                     Source="http://192.168.0.19:81/index.htm"/>
+                     Source="http://192.168.11.14:8081" />
 
-            <Button TextColor="White" BackgroundColor="#363636" FontSize="Medium"
-                    HeightRequest="50" VerticalOptions="Center" Text="VOLTAR" WidthRequest="100"
-                    Clicked="Voltar_Clicked" x:Name="Voltar"  BorderRadius="20" />
-
-            <Button TextColor="White" BackgroundColor="#363636" FontSize="Medium"
-                    HeightRequest="50" VerticalOptions="Center" Text="Alimentar" WidthRequest="100"
-                    Clicked="Alimento_Clicked" x:Name="Alimento" BorderRadius="20" />
-
+            <StackLayout Padding="90">
+                <Button BorderRadius="50" Clicked="Button_Clicked" Text="Petisquin" FontSize="Large" BackgroundColor="#363636" TextColor="White"/>
+            </StackLayout>
 
             <Label Text="Design by CRE10"
                 VerticalOptions="CenterAndExpand" 

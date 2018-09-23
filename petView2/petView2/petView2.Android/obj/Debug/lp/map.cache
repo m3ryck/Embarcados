@@ -34,3 +34,10 @@ Newtonsoft.Json
 RestSharp
 System.Net.Http.Extensions
 System.Net.Http.Primitives
+Syncfusion.Licensing
+Syncfusion.SfNumericUpDown.Android
+Syncfusion.SfNumericUpDown.XForms.Android
+Syncfusion.SfNumericUpDown.XForms
+Xamarin.RangeSlider.Common
+Xamarin.RangeSlider.Droid
+System.Reflection.Extensions

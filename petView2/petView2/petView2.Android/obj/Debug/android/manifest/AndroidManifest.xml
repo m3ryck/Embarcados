@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname" android:installLocation="auto">
   <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="27" />
   <uses-permission android:name="android.permission.INTERNET" />
-  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
   <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL" />
   <uses-permission android:name="android.permission.WAKE_LOCK" />
-  <application android:label="petView2.Android" android:name="android.app.Application" android:allowBackup="true" android:icon="@mipmap/icon" android:debuggable="true">
+  <application android:label="Pet Viewer" android:icon="@drawable/icon" android:name="android.support.multidex.MultiDexApplication" android:allowBackup="true" android:debuggable="true">
     <activity android:configChanges="orientation|screenSize" android:icon="@mipmap/icon" android:label="petView2" android:theme="@style/MainTheme" android:name="md59fe0fe9543e17a995cd370ee8776eb75.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />

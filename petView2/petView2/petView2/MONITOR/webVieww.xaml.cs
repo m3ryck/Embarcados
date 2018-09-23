@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using Newtonsoft.Json.Linq;
+using petView2.SERVICE;
 
 namespace petView2.MONITOR
 {
@@ -18,14 +20,16 @@ namespace petView2.MONITOR
             
 		}
 
-        private void Voltar_Clicked(object sender, EventArgs e)
+        private void Button_Clicked(object sender, EventArgs e)
         {
-            App.Current.MainPage = new MainPage();
-        }
+            JObject user = new JObject();
 
-        private void Alimento_Clicked(object sender, EventArgs e)
-        {
+            user.Add("action", "write");
+            user.Add("gpio", 17);
+            user.Add("status", true);
+            user.Add("tempo", 2000);
 
+            ServiceWS.AtivarAlimentador(user);
         }
     }
 }

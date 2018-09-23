@@ -23,24 +23,34 @@ namespace petView2
 
         private void Monitor(object sender, EventArgs e)
         {
-            App.Current.MainPage = new webVieww();
+            Navigation.PushAsync(new webVieww());
         }
 
-        
+        private void Slider_ValueChanged(object sender, ValueChangedEventArgs e)
+        {
+            //slider.Value = Math.Round(e.NewValue);
+
+            var newStep = Math.Round(e.NewValue);
+            slider.Value = newStep;
+            lblText.Text = slider.Value.ToString();
+            //lblText.TranslateTo(slider.Value * ((slider.Width) / slider.Maximum), 0, 100);
+        }
+
         private void Agendar_Alimento()
         {
-
+            double param = (slider.Value)*(2000);
 
             JObject user = new JObject();
 
             user.Add("action", "write");
             user.Add("gpio", 17);
             user.Add("status", true);
-            user.Add("tempo", 2000);
+            user.Add("tempo", param);
 
             ServiceWS.AtivarAlimentador(user);
             
         }
-        
+
+       
     }
 }
